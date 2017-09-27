@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .login--welcome-back{
+      color: black;
+  }
+  
+  body {
+    background: #f5f5f5;
+      color: #4a4a4a;
+    font-family: helvetica;
+      width: 100%;
+    height: 100vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 400px;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .form-login, .form-2fa {
+    height: auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form-2fa {
+    display: none;
+  }
+  
+  .self-registration-title {
+      color: #39668E;
+      font-weight: 300;
+      font-size: 2em;
+      margin: 0;
+    margin-bottom: 5px;
+  }  
+
+  
+  input[type="text"] {
+    clear: left;
+    display: block;
+    font-size: 18px;
+    border: none;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+      color: #4a4a4a;
+      margin: .625em 0 0 0;
+      outline: none;
+      padding: 10px;
+      width: 100%;
+  }
+  
+  input[type="submit"] {
+    background: #008000;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    margin: 1.5em 0;
+    width: 100%;
+    opacity: .9;
+    outline: none;
+    padding: 8px 12px;   
+  }
+  
+  
+  .return-link {
+    color: #39668E;
+    display: inline-block;
+    font-size: .875em;
+    margin-top: 2em;
+    text-decoration: none;
+  }
+  
